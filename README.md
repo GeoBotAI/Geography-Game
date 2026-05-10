@@ -1,13 +1,25 @@
-# The AI Centre for Harlow CIC
+# Geography-Game
 
-A landing page concept for **The AI Centre for Harlow CIC**, built as a static website with interactive circular focus areas.
+This repository now includes a separate static website concept for **The AI Centre for Harlow CIC**.
 
-## Run locally
+## View the AI Centre website
 
-Open `index.html` directly in a browser, or serve the folder with a local static server:
+The website lives in the `website/` folder.
+
+### Option 1: Open directly
+
+Open this file in your browser:
+
+```text
+website/index.html
+```
+
+### Option 2: Run a local server
+
+From the repository root, run:
 
 ```bash
-python3 -m http.server 4173
+python3 -m http.server 4173 --directory website
 ```
 
 Then visit <http://localhost:4173>.
