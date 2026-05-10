@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The AI Centre for Harlow CIC helps residents, educators, businesses and community organisations learn, use and shape AI responsibly."
+    />
+    <title>The AI Centre for Harlow CIC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="The AI Centre for Harlow CIC home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 96 76" role="img">
+            <path
+              d="M14 27c8-18 23-9 35-18 12-9 21 2 28 9 8 8 5 22-4 31-9 10-18 12-26 19-8-8-16-3-27-12C9 47 8 39 14 27Z"
+            />
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <span>The AI Centre</span>
+          <small>for Harlow CIC</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main menu">
+        <a href="#focus">Areas of focus</a>
+        <a href="#programmes">Programmes</a>
+        <a href="#events">Events</a>
+        <a href="#partners">Partners</a>
+      </nav>
+
+      <a class="nav-cta" href="#contact">Get involved</a>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-orbit" aria-label="Selectable areas of focus" id="focus">
+          <div class="halo halo-pink"></div>
+          <div class="halo halo-yellow"></div>
+          <div class="halo halo-blue"></div>
+          <div class="spark spark-one" aria-hidden="true"></div>
+          <div class="spark spark-two" aria-hidden="true"></div>
+
+          <button
+            class="focus-bubble active bubble-residents"
+            type="button"
+            data-title="AI Skills for Residents"
+            data-copy="Friendly, jargon-free sessions that help local people understand practical AI tools, online safety and everyday opportunities."
+            aria-pressed="true"
+          >
+            <span class="bubble-icon">◎</span>
+            <span>Residents</span>
+          </button>
+
+          <button
+            class="focus-bubble bubble-educators"
+            type="button"
+            data-title="Schools & Educators"
+            data-copy="Hands-on training, classroom resources and leadership support for teachers, trainee teachers and school teams across Harlow."
+            aria-pressed="false"
+          >
+            <span class="bubble-icon">✦</span>
+            <span>Educators</span>
+          </button>
+
+          <button
+            class="focus-bubble bubble-business"
+            type="button"
+            data-title="Business & Community Organisations"
+            data-copy="Practical workshops that help local businesses, charities and community groups move from curiosity to confident AI adoption."
+            aria-pressed="false"
+          >
+            <span class="bubble-icon">●</span>
+            <span>Business</span>
+          </button>
+
+          <button
+            class="focus-bubble bubble-events"
+            type="button"
+            data-title="Events, Talks & Peer Learning"
+            data-copy="Local meetups, expert sessions and peer-learning spaces where Harlow can explore AI together and share what works."
+            aria-pressed="false"
+          >
+            <span class="bubble-icon">◌</span>
+            <span>Events</span>
+          </button>
+
+          <button
+            class="focus-bubble bubble-ethics"
+            type="button"
+            data-title="Responsible & Inclusive AI"
+            data-copy="Guidance and conversations focused on safe, ethical and inclusive AI use so the benefits are shaped by the whole community."
+            aria-pressed="false"
+          >
+            <span class="bubble-icon">◉</span>
+            <span>Ethical AI</span>
+          </button>
+
+          <div class="logo-card" aria-label="The AI Centre for Harlow CIC logo inspired by Harlow neon outline">
+            <svg class="harlow-outline" viewBox="0 0 420 330" aria-hidden="true">
+              <path
+                d="M53 93c19-42 64-18 105-35 38-15 55-49 94-31 20 9 40-9 60 9 15 14-5 27 13 37 14 8 33-3 41 12 7 14-5 30-1 47 5 22 40 12 31 36-18 49-62 70-76 120-42 11-73 25-109 27-18 1-24 19-39 11-16-8-27-4-43 2-17-25-47-35-65-64-12-20-5-42-20-61-16-20-39-25-34-53 3-18 36-15 43-57Z"
+              />
+            </svg>
+            <p class="logo-text"><span>THE</span> AI<br />CENTRE FOR<br />HARLOW</p>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">The AI Centre for Harlow CIC</p>
+          <h1 id="hero-title">Empowering our community in the age of AI</h1>
+          <div class="hero-rule" aria-hidden="true"></div>
+          <p class="hero-description">
+            We help Harlow residents, educators, businesses and community organisations understand, use and shape artificial intelligence responsibly through accessible learning, practical workshops and local collaboration.
+          </p>
+
+          <article class="selected-focus" aria-live="polite">
+            <p class="selected-label">Selected focus</p>
+            <h2 id="selected-title">AI Skills for Residents</h2>
+            <p id="selected-copy">
+              Friendly, jargon-free sessions that help local people understand practical AI tools, online safety and everyday opportunities.
+            </p>
+          </article>
+
+          <div class="hero-actions">
+            <a class="primary-action" href="#events">Explore upcoming events <span aria-hidden="true">→</span></a>
+            <a class="secondary-action" href="#partners">Partner with us <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="programme-strip" id="programmes" aria-labelledby="programmes-title">
+        <div>
+          <p class="eyebrow">Programmes</p>
+          <h2 id="programmes-title">Practical AI learning for every part of Harlow</h2>
+        </div>
+        <div class="programme-cards">
+          <article>
+            <span>01</span>
+            <h3>Learn</h3>
+            <p>Accessible introductions, skills sessions and resources for people starting their AI journey.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Apply</h3>
+            <p>Workshops that turn AI ideas into safe, useful workflows for classrooms, teams and organisations.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Shape</h3>
+            <p>Community conversations about responsible AI, local opportunity and the future of work and learning.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-band" id="events">
+        <div>
+          <p class="eyebrow">Events & workshops</p>
+          <h2>Bring AI learning to your school, workplace or community group.</h2>
+        </div>
+        <a class="primary-action light" href="mailto:hello@harlow-ai.com" id="contact">Start a conversation</a>
+      </section>
+
+      <section class="partners" id="partners" aria-labelledby="partners-title">
+        <p class="eyebrow">Partnerships</p>
+        <h2 id="partners-title">Built with local people, educators and organisations.</h2>
+        <p>
+          We welcome partners who want to make AI more understandable, useful and inclusive for Harlow.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
